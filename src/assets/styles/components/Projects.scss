@@ -24,13 +24,32 @@
   display: block;
 }
 
+.projects-texts-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs{
+  display: block;
+  list-style-type: none;
+}
+
+.projects-tabname {
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 .projects-img {
-  height: 200px;
-}
-
-#uniqway-img{
-}
-
-#wip-img{
+  height: 300px;
   display: none;
+}
+
+.projects-text {
+  display: none;
+}
+
+.active {
+  display: block;
 }

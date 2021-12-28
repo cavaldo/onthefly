@@ -4,26 +4,23 @@ import Introduction from './components/Introduction';
 import About from './components/About';
 import Contacts from './components/Contacts';
 import Nav from './components/Nav';
-import Journey from './components/Journey';
 import Projects from './components/Projects.js';
 import Technologies from './components/Technologies.js';
 
-class App extends React.Component {
+function App() {
+    const sections = ["about", "technologies", "projects", "contacts"];
 
-  render () {
     return (
       <main>
-        <Nav/>
+        <Nav sections={sections} />
         <Introduction/>
         <About/>
         <Technologies/>
         <Projects/>
-        <Journey/>
         <Contacts/>
 
       </main>
     );
-  }
 }
 
 export default App;
