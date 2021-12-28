@@ -1,0 +1,36 @@
+#projects {
+  display: block;
+}
+
+#projects-heading {
+  width: 50%;
+  text-align: center;
+}
+
+.projects-window {
+  display: flex;
+  flex-direction: row;
+
+  div {
+    width: 50%;
+  }
+}
+
+.projects-texts-wrapper{
+  display: block;
+}
+
+.projects-images {
+  display: block;
+}
+
+.projects-img {
+  height: 200px;
+}
+
+#uniqway-img{
+}
+
+#wip-img{
+  display: none;
+}

@@ -1,0 +1,24 @@
+.introduction {
+  background-image: url("../../img/header-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 50vw;
+  color: #00203f;
+
+}
+
+h1, h2 {
+  position: relative;
+  top: 30%;
+  margin-left: 15%;
+}
+
+.introduction-name {
+  font-size: 52px;
+}
+
+.introduction-short {
+  font-size: 36px;
+}

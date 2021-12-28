@@ -1,21 +1,29 @@
 import React from 'react';
-import About from './About';
-import HomePage from './HomePage';
+import './assets/styles/App.scss';
+import Introduction from './components/Introduction';
+import About from './components/About';
+import Contacts from './components/Contacts';
+import Nav from './components/Nav';
+import Journey from './components/Journey';
+import Projects from './components/Projects.js';
+import Technologies from './components/Technologies.js';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+class App extends React.Component {
 
-function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Switch>
-          <Route path="/" exact component={HomePage}/>
-          <Route path="/about" component={About}/>
-        </Switch>
-      </div>
-    </Router>
-    
-  );
+  render () {
+    return (
+      <main>
+        <Nav/>
+        <Introduction/>
+        <About/>
+        <Technologies/>
+        <Projects/>
+        <Journey/>
+        <Contacts/>
+
+      </main>
+    );
+  }
 }
 
 export default App;

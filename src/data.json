@@ -1,0 +1,37 @@
+{
+  "introduction": {
+    "firstname": "Tien Toan",
+    "lastname": "Ha",
+    "short": "Frontend Web developer"
+  },
+  "about": {
+    "origin": "I'm a Vietnamese born in Czech Republic. Right now living in Prague. I graduated in Software engineering (specialization: Web development) from FIT CTU in Prague.",
+    "motivation": "I'm open for new opportunities. Feel free to contact me via socials. I'm willing to learn new things, technologies. I'm interested in Web development using React.js/Vue.js. I have little experience with Javascript, Sass, as right now I'm learning to code in React, this personal website is also a part of my learning path. I also have basic knowledge in other programming languages like C++ and Java and knowledge in algorithms.",
+    "currentJob": "Currently I'm working for Technology Agency of Czech Republic (TA ČR). Where I've been working since my study days as a part-timer. Working mainly with html and css, being an easy job was perfect to combine with my studies but in the near future I'll be looking for new challenges."
+  },
+  "contacts": {
+    "email": "hatoantien@gmail.com",
+    "mailto": "mailto:hatoantien@gmail.com",
+    "facebook": "https://www.facebook.com/martincavaldo.hatien/",
+    "instagram": "https://www.instagram.com/c4v4ld0/",
+    "linkedin": "https://www.linkedin.com/in/tien-toan-ha-52a00b1ab/"
+  },
+  "tech": "Here are technologies I'm working with / interested in:",
+  "technologies": ["React.js", "Vue.js", "Javascript", "HTML", "CSS (Sass)"],
+  "projects": {
+    "intro": "Some projects I worked/cooperated on.",
+    "items": [
+      {
+        "projectName": "Uniqway",
+        "url": "https://www.uniqway.cz/",
+        "text": "This is some random text."
+      },
+      {
+        "projectName": "Work in Proggress",
+        "url": "",
+        "text": "Work in proggress."
+      }
+    ]
+  }
+  
+}
